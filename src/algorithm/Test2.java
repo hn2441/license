@@ -1,6 +1,10 @@
 package algorithm;
 
+import java.util.Random;
+
 public class Test2 {
+	Random rd = new Random();
+	
 	public Test2() {
 		test201();
 		test202();
@@ -14,7 +18,13 @@ public class Test2 {
 	}
 	
 	public void test201() {
+		int[] jumsu = new int[100];
+		for(int i=0; i<jumsu.length;i++) {
+			jumsu[i] = rd.nextInt(50)+rd.nextInt(50);
+		}
 		
+		
+			
 	}
 	
 	public void test202() {
